@@ -33,11 +33,7 @@ public class HomeWorkLesson2 {
 
     private static boolean sumCheck(int a, int b) {
         int sum = a + b;
-        if (sum >= 10 && sum <= 20) {
-            return true;
-        } else {
-            return false;
-        }
+        return sum >= 10 && sum <= 20;
     }
 
     public static void checkSign(int tempInt) {
@@ -48,11 +44,7 @@ public class HomeWorkLesson2 {
     }
 
     private static boolean typeCheck(int typeCheckArgument) {
-        if (typeCheckArgument < 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return typeCheckArgument < 0;
     }
 
     public static void stringPrint(int a, String temp) {
